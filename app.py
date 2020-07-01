@@ -17,7 +17,7 @@ def prompt_new_entry():
 
 def view_entries(entries):
     for entry in entries:
-        print(f"\n{entry[1]}\n{entry[0]}\n\n")
+        print(f"\n{entry['date']}\n{entry['content']}\n\n")
 
 
 print(welcome)
